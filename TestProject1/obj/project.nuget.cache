@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NXf3h+qUMRA=",
+  "dgSpecHash": "JVewTl5RtX0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Venci\\DemoGitHub(CI CD)\\13.Workshop-CI-System-with-Selenium-Appium-Tests-I-Resources\\2-SeleniumWebDriver\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
@@ -16,9 +16,8 @@
     "C:\\Users\\Venci\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\Venci\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
     "C:\\Users\\Venci\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
-    "C:\\Users\\Venci\\.nuget\\packages\\selenium.support\\4.21.0\\selenium.support.4.21.0.nupkg.sha512",
-    "C:\\Users\\Venci\\.nuget\\packages\\selenium.webdriver\\4.21.0\\selenium.webdriver.4.21.0.nupkg.sha512",
-    "C:\\Users\\Venci\\.nuget\\packages\\selenium.webdriver.chromedriver\\126.0.6478.6100\\selenium.webdriver.chromedriver.126.0.6478.6100.nupkg.sha512",
+    "C:\\Users\\Venci\\.nuget\\packages\\selenium.support\\4.23.0\\selenium.support.4.23.0.nupkg.sha512",
+    "C:\\Users\\Venci\\.nuget\\packages\\selenium.webdriver\\4.23.0\\selenium.webdriver.4.23.0.nupkg.sha512",
     "C:\\Users\\Venci\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []

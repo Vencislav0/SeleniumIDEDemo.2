@@ -20,14 +20,14 @@ jobs:
         with:
           dotnet-version: "6.0.x"
           
-      - name: Fix selenium-manager permissions
-        run: chmod +x ./TestProject1/bin/Debug/net6.0/selenium-manager/linux/selenium-manager
-        
-      - name: Fix selenium-manager permissions
-        run: chmod +x ./TestProject2/bin/Debug/net6.0/selenium-manager/linux/selenium-manager
-        
-      - name: Fix selenium-manager permissions
-        run: chmod +x ./TestProject3/bin/Debug/net6.0/selenium-manager/linux/selenium-manager
+      - name: Install ChromeDriver
+        run: |
+         sudo apt-get update
+         sudo apt-get install -y wget unzip
+         wget https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+         unzip chromedriver_linux64.zip
+         sudo mv chromedriver /usr/local/bin/
+         sudo chmod +x /usr/local/bin/chromedriver
 
 
       - name: Install Dependencies
