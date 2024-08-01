@@ -22,5 +22,5 @@ rad.json
 TestResults.xml
 /.vs
 *.vsidx
-/bin
-/obj
+bin/
+obj/
