@@ -19,6 +19,16 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: "6.0.x"
+          
+      - name: Fix selenium-manager permissions
+        run: chmod +x ./TestProject1/bin/Debug/net6.0/selenium-manager/linux/selenium-manager
+        
+      - name: Fix selenium-manager permissions
+        run: chmod +x ./TestProject2/bin/Debug/net6.0/selenium-manager/linux/selenium-manager
+        
+      - name: Fix selenium-manager permissions
+        run: chmod +x ./TestProject3/bin/Debug/net6.0/selenium-manager/linux/selenium-manager
+
 
       - name: Install Dependencies
         run: dotnet restore
